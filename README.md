@@ -13,4 +13,10 @@ heres how you run it, in this case to adjust images to utc+13 (NZDST)
 py main.py 13
 ```
 
+requires exif library
+
+```
+pip install exif
+```
+
 Link to the reference article I used to understand how to interact with exif in python [Read and Edit Image Metadata with Python - Kenneth Leung](https://towardsdatascience.com/read-and-edit-image-metadata-with-python-f635398cd991#9cfd)
